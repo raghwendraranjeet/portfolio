@@ -10,7 +10,7 @@
 
 /* Keep the analyst workspace visible behind the full scrolling page. */
 body{position:relative;isolation:isolate;background:transparent}
-body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(rgba(251,247,245,.38),rgba(251,247,245,.38)),url('assets/data-analyst-workspace.png') center center/cover no-repeat}
+body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;background:linear-gradient(rgba(251,247,245,.38),rgba(251,247,245,.38)),url('assets/data-analyst-workspace.png') center center/cover no-repeat}body>header,body>main{position:relative;z-index:1}
 .topbar{background:rgba(251,247,245,.78)}
 .hero{background:transparent}
 .insights{background:rgba(243,248,248,.56)}
